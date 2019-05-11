@@ -1,3 +1,122 @@
-.list {
+
+.float {
   float: right;
+  width: 85%;
+  display: inline-block;
+}
+
+.panel {
+  border-radius: 0px;
+}
+.panel-lightgreen{
+  background-color:#F1F6EF;
+  padding: 5px;
+  margin-left: 30px;
+}
+.panel-heading{
+  border-radius: 0px;
+}
+
+
+.sidebar {
+  float: left;
+  width: 12%;
+  display: inline-block;
+  min-height: 100%;
+  position: relative;
+}
+
+.welcome {
+  padding-left: 30px;
+}
+
+.sidebar img {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+.sidebar p {
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.row {
+  height: 100px;
+}
+
+.navrow {
+  height: 50px;
+  padding-left: 30px;
+}
+
+.container {
+  width: 100%;
+}
+
+.title {
+  float: right;
+  width: 85%;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.purple {
+  background-color: #DACAEB;
+}
+
+.lightpurple {
+  background-color: #F5EFF6;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.centerimg {
+  display: block;
+  width:400px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.moveright {
+  float:right;
+}
+
+.floatleft {
+  float: left;
+  width: 125px;
+  padding-right: 10px;
+}
+
+.floatright {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.floatright img {
+  width: 100px;
+}
+
+.alignright {
+  text-align: right;
+}
+
+.caption {
+  float: right;
+}
+
+.bg-success {
+  background-color: #F1F6EF;
+}
+
+.lightblue {
+  background-color: #EFF6F6;
+}
+
+.tiny {
+  font-size: 10px;
+  text-align: right;
 }
