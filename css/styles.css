@@ -1,26 +1,35 @@
-
 .float {
   float: right;
   width: 85%;
   display: inline-block;
 }
 
+.panel-title {
+  font-weight: bold;
+  border-color: black
+  background-color: #cff1e0;
+  color: black;
+  font-family: sans-serif;
+}
+
 .panel {
   border-radius: 0px;
 }
+
 .panel-lightgreen{
   background-color:#F1F6EF;
   padding: 5px;
-  margin-left: 30px;
-}
-.panel-heading{
-  border-radius: 0px;
+  border-color: #cff1e01;
 }
 
+.panel-lightblue{
+  background-color:#f5faff;
+  padding: 5px;
+}
 
 .sidebar {
   float: left;
-  width: 12%;
+
   display: inline-block;
   min-height: 100%;
   position: relative;
@@ -85,8 +94,8 @@
 
 .floatleft {
   float: left;
-  width: 125px;
-  padding-right: 10px;
+  width: 160px;
+
 }
 
 .floatright {
@@ -109,7 +118,11 @@
 }
 
 .bg-success {
-  background-color: #F1F6EF;
+  background-color: #f5fffa;
+}
+
+.bg-success2 {
+  background-color: #f5faff;
 }
 
 .lightblue {
